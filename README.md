@@ -27,7 +27,7 @@ View aboutPage = new AboutPage(this)
 Available on Jcenter, Maven and JitPack
 
 ```groovy
-compile 'com.github.medyo:android-about-page:1.0.8'
+compile 'com.github.medyo:android-about-page:1.2.2'
 ```
 
 
@@ -72,17 +72,16 @@ addItem(versionElement)
 
 ### 5. Available attributes for Element Class
 
+
 | Function        | Description  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:|
 | setTitle(String) | Set title of the element|
-| setColor(Int) | Set color of the element|
-| setIcon(Int) | Set icon of the element|
+| setIconTint(Int) | Set color of the element|
+| setIconDrawable(Int) | Set icon of the element|
 | setValue(String) | Set Element value like Facebook ID|
-| setTag(String) | Set a unique tag value to the element|
 | setIntent(Intent) | Set an intent to be called on `onClickListener` |
 | setGravity(Gravity) | Set a Gravity for the element  |
 | setOnClickListener(View.OnClickListener) | If `intent` isn't suitable for you need, implement your custom behaviour by overriding the click listener|
-
 
 ## Sample Project
 [medyo/android-about-page/app/](https://github.com/medyo/android-about-page/tree/master/app)
@@ -94,7 +93,7 @@ The library does supports the following languages :
 * German (by [vanniktech](https://github.com/vanniktech))
 * Italian (by [greenaddress](https://github.com/greenaddress))
 * Croatian (by [skmlcd](https://github.com/skmlcd))
-* Arabic (by [ZakariaBoualaid](https://github.com/ZakariaBoualaid))
+* Arabic (by [zecharyah](https://github.com/zecharyah))
 * Slovenian (by [skmlcd](https://github.com/skmlcd))
 * Ukrainian (by [NumezmaT](https://github.com/NumezmaT))
 * Russian (by [NumezmaT](https://github.com/NumezmaT))
@@ -105,6 +104,18 @@ The library does supports the following languages :
 * Spanish (by [danramirez](https://github.com/danramirez))
 * Japanese (by [chibatching](https://github.com/chibatching))
 * Turkish (by [tekseker](https://github.com/tekseker))
+* Catalan (by [unxavi](https://github.com/unxavi))
+* Czech (by [semanticer](https://github.com/semanticer))
+* Hungarian (by [jbarat](https://github.com/jbarat))
+* Korean (by [Alfex4936](https://github.com/Alfex4936))
+* Swedish (by [Krillsson](https://github.com/Krillsson))
+* Polish (by [karmil32](https://github.com/karmil32))
+* Persian (by [mortezasun](https://github.com/mortezasun))
+* Traditional Chinese (by [ppcrong](https://github.com/ppcrong))
+* Serbian (by [ljmocic](https://github.com/ljmocic))
+* Greek (by [jvoyatz](https://github.com/jvoyatz))
+* Georgian (by [tatocaster](https://github.com/tatocaster))
+* Indian (by [kartikarora](https://github.com/kartikarora))
 
 Please make a Pull request to add a new language.
 
